@@ -1,0 +1,30 @@
+﻿@model ContactBook.Model.ViewModels.LoginResponseViewModel
+@*
+  
+*@
+@{
+}
+
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>PhoneNumber</th>
+            <th>Email</th>
+            <th>UserName</th>        
+            <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.FirstName </td>
+            <td>@Model.LastName </td>
+            <td>@Model.PhoneNumber </td>
+            <td>@Model.Email </td>
+            <td>@Model.UserName </td>
+            <td>@Model.Id</td>
+
+        </tr>
+    </tbody>
+</table>
